@@ -1,0 +1,59 @@
+/* Загальний стиль для тіла документу */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стиль для заголовку */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Стиль для форми */
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Стиль для мітки */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Стиль для текстового поля введення масиву */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Стиль для кнопки відправки форми */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Стиль для результатів */
+#unique-elements-result {
+    margin-top: 20px;
+    font-size: 16px;
+}
